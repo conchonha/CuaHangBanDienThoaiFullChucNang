@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context=".Activity.HoaDon">
+  <androidx.appcompat.widget.Toolbar
+      android:layout_width="match_parent"
+      android:background="#3F51B5"
+      app:titleTextColor="#fff"
+      android:id="@+id/toolbarHoadon"
+      app:title="Hóa Đơn"
+      android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="Hóa Đơn "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="Mã Đơn Hàng"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="Tên Tài Khoản"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="Email"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="Số Điện Thoại"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="Ngày Mua"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="Trình Trạng"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="Địa Chỉ"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="Mã Đơn Hàng"
+            android:id="@+id/txtmadonhang"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="Tên Tài Khoản"
+            android:id="@+id/txttentaikhoan"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:text="Email"
+            android:id="@+id/txtemailhoadon"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:id="@+id/txtsodienthoai"
+            android:text="Số Điện Thoại"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:id="@+id/txtngaymua"
+            android:text="Ngày Mua"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:id="@+id/txttrinhtranghoadon"
+            android:text="Trình Trạng"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:id="@+id/txtdiachihoadon"
+            android:text="Địa Chỉ"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Sản Phẩm Đã Mua"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:text="#"
+                android:padding="5dp"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="#fff"
+                android:id="@+id/stt"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="Sản Phẩm"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:id="@+id/txttensanpham1"
+                android:padding="5dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="SL"
+                android:maxLines="2"
+                android:layout_marginLeft="-10dp"
+                android:id="@+id/txtsoluong"
+                android:padding="5dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:text="Đơn Giá"
+                android:padding="5dp"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="#fff"
+                android:id="@+id/txtdongia"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:text="Thành Tiền"
+                android:id="@+id/txtthanhtien"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:maxLines="2"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerviewhoadon"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

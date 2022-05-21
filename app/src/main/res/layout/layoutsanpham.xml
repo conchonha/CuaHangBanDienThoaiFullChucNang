@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/boder"
+                android:padding="10dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/imageviewsanpham"
+                    android:layout_height="150dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_centerVertical="true"
+                    android:text=""
+                    android:id="@+id/txtsale"
+                    android:textStyle="bold"
+                    android:textColor="#FA0606"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textSize="18dp"
+                    android:textColor="@color/mauden"
+                    android:padding="5dp"
+                    android:id="@+id/txttensanpham"
+                    android:text="ten san pham"
+                    android:layout_below="@+id/imageviewsanpham"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/txttensanpham"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/txtgiagiam"
+                    android:text="00000"
+                    android:textColor="#776666"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/txttensanpham"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/txtgiasaugiam"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/txtgiagiam"
+                    android:text="00000"
+                    android:textColor="#F80505"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

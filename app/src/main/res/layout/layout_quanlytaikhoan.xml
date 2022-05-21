@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Mã Khách hàng:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/txtmakhachhangadmin"
+                    android:textColor="#85059B"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgDeleteAccount"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/delete" />
+
+            <ImageView
+                android:id="@+id/imgEdit"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_pencil"
+                android:layout_toLeftOf="@+id/imgDeleteAccount"
+                android:layout_marginEnd="10dp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:background="#000"
+                android:layout_height="1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:weightSum="4"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="135dp"
+                    android:layout_gravity="center"
+                    android:layout_height="135dp">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_gravity="center"
+                        android:id="@+id/imghinhanhtaikhoanadmin"
+                        android:layout_height="100dp" />
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:textStyle="bold|italic"
+                    android:id="@+id/txttentaikhoanadmin"
+                    android:gravity="center"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Thông Tin"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="#0837E2"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:id="@+id/txtpasswordadmin"
+                    android:inputType="textPassword"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:id="@+id/txtsodienthoaiadmin"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="16sp"
+                    android:id="@+id/txtemailadmin"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Địa Chỉ:"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"
+                        android:textColor="#85049C"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/txtdiachiadmin"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:background="#000"
+            android:layout_height="3dp" />
+    </androidx.cardview.widget.CardView>
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_marginRight="25dp"-->
+    <!--android:layout_marginLeft="25dp"-->
+    <!--android:orientation="vertical"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<FrameLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_marginBottom="20dp"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="135dp"-->
+    <!--android:layout_marginBottom="30dp"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<ImageView-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:id="@+id/imgchitietdonhang4"-->
+    <!--android:layout_margin="15dp"/>-->
+    <!--</android.support.v7.widget.CardView>-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:text="gggggggggggggggggg"-->
+    <!--android:textSize="16sp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:gravity="center"-->
+    <!--android:id="@+id/txttenchitetdonhang4"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:layout_marginBottom="5dp"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtgiatien"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_marginLeft="60dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center|top"-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--android:text="Thông Tin Đơn Hàng"-->
+    <!--android:textStyle="bold"-->
+    <!--android:gravity="center"-->
+    <!--android:textSize="20sp" />-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:text="190000"-->
+    <!--android:id="@+id/txtgiachitietdonhang4"-->
+    <!--android:layout_gravity="center|top"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:textSize="16sp"-->
+    <!--android:layout_marginTop="55dp"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:text="190000"-->
+    <!--android:layout_gravity="center|top"-->
+    <!--android:textSize="16sp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:id="@+id/txtsoluongchitietdonhang4"-->
+    <!--android:layout_marginTop="90dp"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:text="190000"-->
+    <!--android:layout_gravity="center|top"-->
+    <!--android:textSize="16sp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:id="@+id/txtthanhthienchitietdonhang4"-->
+    <!--android:layout_marginTop="125dp"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--</FrameLayout>-->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:background="#000"-->
+    <!--android:layout_height="3dp" />-->
+    <!--</android.support.v7.widget.CardView>-->
+
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

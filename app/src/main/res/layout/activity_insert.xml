@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            app:title="Thêm Sản Phẩm"
+            android:id="@+id/toobarAddSanPham"
+            app:titleTextColor="#F7F2F2"
+            android:background="#673AB7"
+            android:layout_height="?attr/actionBarSize">
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical">
+            <EditText
+                android:background="#60000000"
+                android:padding="10dp"
+                android:id="@+id/TenSP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhap ten san pham"/>
+            <EditText
+                android:background="#60000000"
+                android:padding="10dp"
+                android:id="@+id/GiaSP"
+                android:inputType="number"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhap GiaSP san pham"/>
+            <TextView
+                android:background="#60000000"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:id="@+id/ngayGiamGia"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               />
+            <EditText
+                android:background="#60000000"
+                android:padding="10dp"
+                android:id="@+id/GiamGia"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhap GiamGia san pham"/>
+            <TextView
+                android:background="#60000000"
+                android:padding="10dp"
+                android:id="@+id/HinhAnhSP"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Click vào để lấy hình"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:background="#000"
+                android:layout_gravity="start"
+                android:id="@+id/imgInsert"/>
+
+            <EditText
+                android:background="#60000000"
+                android:padding="10dp"
+                android:id="@+id/MoTaSP"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhap Mo Ta san pham"/>
+
+            <EditText
+                android:background="#60000000"
+                android:padding="10dp"
+                android:id="@+id/IDSP"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhap ID san pham"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="#3F51B5"
+                android:text="Thêm"
+                android:id="@+id/btnAdd"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

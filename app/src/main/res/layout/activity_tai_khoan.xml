@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            app:title="Thông Tin Tài Khoản"
+            android:id="@+id/toolbar23"
+            app:titleTextColor="#F1EDED"
+            android:background="#5069E6"
+            android:layout_height="?attr/actionBarSize">
+
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/bgr">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    app:cardCornerRadius="60dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_gravity="bottom|center">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:src="@drawable/dv"
+                        android:scaleType="fitXY"
+                        android:id="@+id/immm"
+                        android:layout_height="match_parent" />
+                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Tên Đăng Nhập:"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_gravity="bottom"
+                    android:id="@+id/user"
+                    android:textColor="#0A0909"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginBottom="25dp"
+                    android:src="@drawable/anh5"
+                    android:scaleType="fitXY"
+                    android:id="@+id/imgthumuc"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginRight="60dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Lưu"
+                    android:textColor="#000"
+                    android:id="@+id/btnluu"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#000"
+            android:layout_height="match_parent">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="25dp"
+                android:stretchColumns="*"
+                android:layout_height="match_parent">
+                <TableRow>
+                    <TextView android:layout_width="wrap_content"
+                        android:text="Mật Khẩu:   "
+                        android:textSize="20sp"
+                        android:textColor="#F1EEEE"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Passwor"
+                        android:textSize="18sp"
+                        android:id="@+id/pass"
+                        android:inputType="textPassword"
+                        android:textColor="#DBD2D1"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#F7F4F4"/>
+
+                <TableRow android:layout_marginTop="25dp">
+                    <TextView android:layout_width="wrap_content"
+                        android:text="Số Điện Thoại:   "
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="#F0E2E2"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="So Dien Thoai"
+                        android:id="@+id/sdt"
+                        android:textSize="18sp"
+                        android:textColor="#F1F0F0"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#F5E5E5"/>
+
+                <TableRow android:layout_marginTop="25dp">
+                    <TextView android:layout_width="wrap_content"
+                        android:text="Email:   "
+                        android:textSize="20sp"
+                        android:textColor="#E6D1D1"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Email"
+                        android:textSize="18sp"
+                        android:id="@+id/idd"
+                        android:textColor="#FCFBFB"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#F7F6F6"/>
+
+                <TableRow android:layout_marginTop="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+                    <TextView android:layout_width="wrap_content"
+                        android:text="Địa Chỉ:   "
+                        android:textColor="#CABDBD"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"/>
+                    <LinearLayout android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+                        <ScrollView android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="180dp"
+                                android:text="Dia Chi"
+                                android:id="@+id/diachi"
+                                android:textSize="18sp"
+                                android:textColor="#FAF8F8"
+                                android:background="@drawable/custom_view"
+                                android:padding="10dp"
+                                android:height="100dp"
+                                android:layout_height="200dp" />
+                        </ScrollView>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#5069E6"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/btnupdatethongtin"
+            android:text="Update"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

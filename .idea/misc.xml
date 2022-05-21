@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.132" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/drawable-anydpi/ic_edit.xml" value="0.132" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/drawable/et_ui.xml" value="0.244" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/activity_admin.xml" value="0.25104166666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/activity_dang_ky.xml" value="0.27447916666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/activity_dang_nhap.xml" value="0.264" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/activity_don_hang.xml" value="0.25104166666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/activity_insert.xml" value="0.2" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/activity_main.xml" value="0.16799999999999998" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/activity_quan_lytaikhoan.xml" value="0.27447916666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/activity_san_pham.xml" value="0.1921875" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/activity_shipper.xml" value="0.23385416666666667" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/activity_tai_khoan.xml" value="0.27447916666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/dialog_chon_tai_khoan.xml" value="0.27447916666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/fragment_4.xml" value="0.14166666666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/fragment_5.xml" value="0.14166666666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/fragment_6.xml" value="0.14166666666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/fragment_7.xml" value="0.14166666666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/fragment_8.xml" value="0.14166666666666666" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/fragment_gk_gt_bt.xml" value="0.1585144927536232" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/fragment_phapluat.xml" value="0.1585144927536232" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/fragment_theloaikhac.xml" value="0.1585144927536232" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/fragment_tpvanhocvietnam.xml" value="0.1585144927536232" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/fragment_vanhocdangian.xml" value="0.1585144927536232" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/item_sanpham.xml" value="0.16458333333333333" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/layout_quanlytaikhoan.xml" value="0.2" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/layoutdonhang.xml" value="0.12447916666666667" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/layout/shipper_activity.xml" value="0.536" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/menu/menu_update_donhang_shipper.xml" value="1.082142857142857" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/menu/menudanhmuc.xml" value="0.1" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/menu/menunguoidung.xml" value="0.2520833333333333" />
+        <entry key="..\:/android/android_java/CuaHangSach/android/CuaHangSachonline/app/src/main/res/menu/menuupdatedonhang.xml" value="0.2520833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity__vitrishop">Map</string>
+    <string name="them_san_pham">Thêm Sản Phẩm</string>
+</resources>

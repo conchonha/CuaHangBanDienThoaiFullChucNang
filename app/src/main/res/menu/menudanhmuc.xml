@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="SamSung"
+        android:id="@+id/vhdd"/>
+    <item android:title="Iphone"
+        android:id="@+id/gkgtbt"/>
+    <item android:title="Oppo"
+    android:id="@+id/pl"/>
+    <item android:title="Vivo"
+        android:id="@+id/tpvhvn"/>
+    <item android:title="Thể Loại Khác"
+        android:id="@+id/tlkhac"/>
+
+</menu>
